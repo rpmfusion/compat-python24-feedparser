@@ -3,7 +3,7 @@
 
 Name:           compat-python24-feedparser
 Version:        4.1
-Release:        5%{?dist}
+Release:        6%{?dist}
 Summary:        Parse RSS and Atom feeds in Python
 
 Group:          Development/Languages
@@ -51,6 +51,9 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Sun Mar 29 2009 Thorsten Leemhuis <fedora [AT] leemhuis [DOT] info> - 4.1-6
+- rebuild for new F11 features
+
 * Sun Aug 10 2008 Thorsten Leemhuis <fedora [AT] leemhuis [DOT] info - 4.1-5
 - rebuild for RPM Fusion
 
